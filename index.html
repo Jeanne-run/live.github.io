@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>live2D</title>
+    <link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
+    <style>
+        #app {
+            display: flex;
+        }
+
+        #app div {
+            margin: 20px;
+        }
+
+        .mdui-list {
+            height: 500px;
+            overflow: auto;
+        }
+
+        .Switch button {
+            top: 0px;
+            position: sticky;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body class="mdui-theme-primary-indigo mdui-theme-accent-pink">
+    <div id="app">
+        <div class="select">
+            <div class="mdui-list">
+                <template v-for='(item,index) in JSONarr'>
+                    <a href="#" @click='fnClick(item , index)' class="mdui-list-item mdui-ripple "
+                        :class='mduiactive == index ? "mdui-list-item-active" : "" '>{{item.name}}</a>
+                </template>
+            </div>
+        </div>
+        <div class="Switch">
+            <template v-for='(item ,index) in button'>
+                <button @click='fnTap( item,index )' class="mdui-btn mdui-btn-raised  mdui-ripple"
+                    :class="activeClass == index ? 'mdui-color-theme-accent':''">{{item}}</button>
+            </template>
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js"></script>
+    <script src="assets/live2d-widget/L2Dwidget.min.js"></script>
+    <script src="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
+    <script>
+        function init(src, type = 'destroy') {
+            L2Dwidget.init({
+                model: {
+                    jsonPath: 'assets/resources/dabao/live2d/gun/' + src + '/' + type + '/model.json'
+                },
+                react: {
+                    opacityDefault: 1,
+                    opacityOnHover: 1
+                }
+            });
+
+        }
+
+        var app = new Vue({
+            el: '#app',
+            data: {
+                button: ['destroy', 'normal'],
+                activeClass: 0,
+                mduiactive: 0,
+                livename: '88type_1809',
+                JSONarr: [],
+            },
+            mounted() {
+               
+            },
+            methods: {
+                fnClick(item, index) {
+                    this.mduiactive = index;
+                    this.activeClass = 0;
+                    this.livename = item.name;
+                    init(this.livename);
+                },
+                fnTap(item, index) {
+                    this.activeClass = index;
+                    init(this.livename, item);
+                }
+            }
+        })
+        $.get('assets/models.json', function (data) {
+            var list = data.list.slice(0);
+            app.JSONarr = data.list;
+        });
+        init('88type_1809');
+    </script>
+</body>
+
+</html>

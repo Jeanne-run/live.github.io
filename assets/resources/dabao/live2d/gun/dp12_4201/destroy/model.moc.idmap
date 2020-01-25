@@ -1,0 +1,2488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?version SerializeFormatVersion:2?>
+<?import com.live2d.cubism.doc.model.id.CDeformerId?>
+<?import com.live2d.cubism.doc.model.id.CDrawableId?>
+<?import com.live2d.cubism.doc.model.id.CParameterId?>
+<?import com.live2d.cubism.doc.model.id.CPartId?>
+<?import com.live2d.cubism.doc.model.options.compatibility.CompatibilityOption_Cubism21to30?>
+<?import com.live2d.cubism.doc.model.options.compatibility.CompatibilityOption_Cubism21to30$IdSet?>
+<?import com.live2d.type.CDeformerGuid?>
+<?import com.live2d.type.CDrawableGuid?>
+<?import com.live2d.type.CParameterGuid?>
+<?import com.live2d.type.CPartGuid?>
+<root>
+	<shared />
+	<main>
+		<CompatibilityOption_Cubism21to30>
+			<carray_list xs.n="idSets" count="411">
+				<IdSet>
+					<s xs.n="idString21">PARAM_ANGLE_X</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="29a23083-c251-44a6-ad7a-5c581dcd750c" note="PARAM_ANGLE_X" />
+					<CParameterId xs.n="id30" idstr="PARAM_ANGLE_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_ANGLE_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="6e38cff6-8f57-4e3c-82d2-6d0422be254f" note="PARAM_ANGLE_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_ANGLE_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_ANGLE_Z</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="b00c2b9e-3203-4e20-ab93-0b224c34beed" note="PARAM_ANGLE_Z" />
+					<CParameterId xs.n="id30" idstr="PARAM_ANGLE_Z" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_EYE_L_OPEN</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="abc6fc0f-cda8-434a-944f-6dfdecf59136" note="PARAM_EYE_L_OPEN" />
+					<CParameterId xs.n="id30" idstr="PARAM_EYE_L_OPEN" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_EYE_L_SMILE</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="91cfcc47-2254-4315-a331-bab3a398db43" note="PARAM_EYE_L_SMILE" />
+					<CParameterId xs.n="id30" idstr="PARAM_EYE_L_SMILE" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_EYE_R_OPEN</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="57ae3997-e9ba-477b-b2fa-407b7efb7265" note="PARAM_EYE_R_OPEN" />
+					<CParameterId xs.n="id30" idstr="PARAM_EYE_R_OPEN" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_EYE_R_SMILE</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="27e3e579-96f6-49db-a82e-bc3751de767f" note="PARAM_EYE_R_SMILE" />
+					<CParameterId xs.n="id30" idstr="PARAM_EYE_R_SMILE" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_EYE_BALL_X</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="d878f425-2a57-40c6-831c-0cceab5c06a9" note="PARAM_EYE_BALL_X" />
+					<CParameterId xs.n="id30" idstr="PARAM_EYE_BALL_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_EYE_BALL_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="e1a965af-3791-4b53-a148-8f84b20b15a6" note="PARAM_EYE_BALL_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_EYE_BALL_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BROW_L_ANGLE</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="1aef190d-95c0-490e-a065-f8c75909665f" note="PARAM_BROW_L_ANGLE" />
+					<CParameterId xs.n="id30" idstr="PARAM_BROW_L_ANGLE" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BROW_R_ANGLE</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="722afee4-bfd8-4ee1-9e54-b01d98ff7051" note="PARAM_BROW_R_ANGLE" />
+					<CParameterId xs.n="id30" idstr="PARAM_BROW_R_ANGLE" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BROW_L_FORM</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="65ca6d9e-3652-4e7e-851e-e96c4b8ae602" note="PARAM_BROW_L_FORM" />
+					<CParameterId xs.n="id30" idstr="PARAM_BROW_L_FORM" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BROW_R_FORM</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="ea2b4e81-0b4b-42ff-9372-59b9d28c7601" note="PARAM_BROW_R_FORM" />
+					<CParameterId xs.n="id30" idstr="PARAM_BROW_R_FORM" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_MOUTH_FORM</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="f568a246-23f5-44e6-b99d-18035ba7df20" note="PARAM_MOUTH_FORM" />
+					<CParameterId xs.n="id30" idstr="PARAM_MOUTH_FORM" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_MOUTH_OPEN_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="8814e399-3f38-4512-8719-6e19389237c8" note="PARAM_MOUTH_OPEN_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_MOUTH_OPEN_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_CHEEK</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="43aa6657-e593-4468-b01b-d07387bb5cf7" note="PARAM_CHEEK" />
+					<CParameterId xs.n="id30" idstr="PARAM_CHEEK" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BODY_ANGLE_X</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="6b5ae98d-d332-43c3-b21d-d2689a1a0306" note="PARAM_BODY_ANGLE_X" />
+					<CParameterId xs.n="id30" idstr="PARAM_BODY_ANGLE_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BODY_ANGLE_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="1af2ba8b-1cdc-443b-b798-b8aeb82633d3" note="PARAM_BODY_ANGLE_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_BODY_ANGLE_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BODY_ANGLE_Z</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="bf7f9217-0591-4a74-b49e-36a7e675667c" note="PARAM_BODY_ANGLE_Z" />
+					<CParameterId xs.n="id30" idstr="PARAM_BODY_ANGLE_Z" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BREATH</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="72b3b4c8-4fba-4804-8288-8f2b52942beb" note="PARAM_BREATH" />
+					<CParameterId xs.n="id30" idstr="PARAM_BREATH" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_W_X</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="6dcf086c-491e-4362-bd44-5b855bb3f558" note="PARAM_W_X" />
+					<CParameterId xs.n="id30" idstr="PARAM_W_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_W_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="8f2daf78-4d0b-493a-a990-8d3753582018" note="PARAM_W_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_W_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_W_ZOOM</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="d6442b3f-369e-460f-9a26-7d20c4c32516" note="PARAM_W_ZOOM" />
+					<CParameterId xs.n="id30" idstr="PARAM_W_ZOOM" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_ARM_L</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="c0cb201c-23e2-43ca-9963-eca3f5faac86" note="PARAM_ARM_L" />
+					<CParameterId xs.n="id30" idstr="PARAM_ARM_L" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_ARM_L_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="535baab2-f1cd-42a9-a1b8-87bb431d07cb" note="PARAM_ARM_L_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_ARM_L_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_ARM_L_1</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="79272ef8-2ab9-47dc-8fbb-a6c916097509" note="PARAM_ARM_L_1" />
+					<CParameterId xs.n="id30" idstr="PARAM_ARM_L_1" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_ARM_L_1_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="dac01c7c-e4d6-4c70-8b9b-9bbe5db9d318" note="PARAM_ARM_L_1_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_ARM_L_1_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_HAND_L</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="efa44d73-ef14-4e1c-9cbd-7bc15fc4127f" note="PARAM_HAND_L" />
+					<CParameterId xs.n="id30" idstr="PARAM_HAND_L" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_HAND_L_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="4ec9c4c4-d172-4367-b8b9-6d4e51dcf28b" note="PARAM_HAND_L_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_HAND_L_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_FINGER_L</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="a826c33c-b300-4a7e-b977-59ba6d6f2970" note="PARAM_FINGER_L" />
+					<CParameterId xs.n="id30" idstr="PARAM_FINGER_L" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_ARM_R</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="be27ba49-dc08-4fda-8f00-d29e211951a7" note="PARAM_ARM_R" />
+					<CParameterId xs.n="id30" idstr="PARAM_ARM_R" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_ARM_R_2</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="f3d17c4d-ef64-4302-9aa7-c0ea6eeb8dfa" note="PARAM_ARM_R_2" />
+					<CParameterId xs.n="id30" idstr="PARAM_ARM_R_2" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_HAND_R</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="46de1443-4841-4909-92b5-554bd902a03e" note="PARAM_HAND_R" />
+					<CParameterId xs.n="id30" idstr="PARAM_HAND_R" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BOX</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="79dcaf7b-d50a-44e0-8f6d-5acb2ce8a68e" note="PARAM_BOX" />
+					<CParameterId xs.n="id30" idstr="PARAM_BOX" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_LEG_L</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="50ce33e2-9f2a-418e-bbe7-1db6ad12bd27" note="PARAM_LEG_L" />
+					<CParameterId xs.n="id30" idstr="PARAM_LEG_L" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_LEG_L_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="29e41795-ace4-427a-ac82-de7ddc6fc178" note="PARAM_LEG_L_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_LEG_L_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_LEG_R</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="300462f7-04d4-4b23-b322-88fa49fe7eb0" note="PARAM_LEG_R" />
+					<CParameterId xs.n="id30" idstr="PARAM_LEG_R" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_LEG_R_1</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="d783db35-1e30-48e3-afec-400d83d71227" note="PARAM_LEG_R_1" />
+					<CParameterId xs.n="id30" idstr="PARAM_LEG_R_1" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_SKIRTBACK</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="ec8eaf2a-c620-4e3f-af49-44d59232e2b5" note="PARAM_SKIRTBACK" />
+					<CParameterId xs.n="id30" idstr="PARAM_SKIRTBACK" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BALL_X</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="bc0a2b99-b393-410c-bf7d-c63e2bb4ac27" note="PARAM_BALL_X" />
+					<CParameterId xs.n="id30" idstr="PARAM_BALL_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BALL_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="017cdf0f-7232-4bf3-a8f4-0c3c3a736c59" note="PARAM_BALL_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_BALL_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_LIGHT</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="c74cbdcd-841c-4a81-85e5-53a2a4530031" note="PARAM_LIGHT" />
+					<CParameterId xs.n="id30" idstr="PARAM_LIGHT" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_WING</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="7f95a61a-2d71-4d31-bf56-48546c9d9010" note="PARAM_WING" />
+					<CParameterId xs.n="id30" idstr="PARAM_WING" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_DRONE_X</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="fe0a1671-9132-468a-8300-69202f98c954" note="PARAM_DRONE_X" />
+					<CParameterId xs.n="id30" idstr="PARAM_DRONE_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_DRONE_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="be2dcd76-c326-4e75-b391-dc287bf36f42" note="PARAM_DRONE_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_DRONE_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_DRONE_Z</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="bd0c20fd-22f0-4f80-9e55-287c6a1ada99" note="PARAM_DRONE_Z" />
+					<CParameterId xs.n="id30" idstr="PARAM_DRONE_Z" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_DRONE_ZOOM</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="aaf65bb5-d06a-4d91-973c-d7a3745beadc" note="PARAM_DRONE_ZOOM" />
+					<CParameterId xs.n="id30" idstr="PARAM_DRONE_ZOOM" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_MAO_X</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="e68e5abb-27a3-41be-9132-7e0b92be866a" note="PARAM_MAO_X" />
+					<CParameterId xs.n="id30" idstr="PARAM_MAO_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_SP1_X</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="385c64ba-f530-4517-9b98-b0f1abbf156f" note="PARAM_SP1_X" />
+					<CParameterId xs.n="id30" idstr="PARAM_SP1_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_SP1_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="493807fe-90f8-4b00-a97b-a010e16803bd" note="PARAM_SP1_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_SP1_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_SP1</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="87da1bce-c70c-4935-97d1-d19975eaec25" note="PARAM_SP1" />
+					<CParameterId xs.n="id30" idstr="PARAM_SP1" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_OPAISHAKE_X</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="7f08273d-6053-4c55-b1fd-b00efb574c8f" note="PARAM_OPAISHAKE_X" />
+					<CParameterId xs.n="id30" idstr="PARAM_OPAISHAKE_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_OPAISHAKE_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="12128568-bed9-4eae-a0c3-a2abf3377c6e" note="PARAM_OPAISHAKE_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_OPAISHAKE_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_TAG_X</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="ae9f593b-7efd-4f8c-9380-b1a86f5ad2ae" note="PARAM_TAG_X" />
+					<CParameterId xs.n="id30" idstr="PARAM_TAG_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_TAG_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="2662c315-f14c-4f19-b3f2-1aa95919e5e5" note="PARAM_TAG_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_TAG_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_DAIMAO</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="0641e344-00c8-453b-80fd-3a442bfff142" note="PARAM_DAIMAO" />
+					<CParameterId xs.n="id30" idstr="PARAM_DAIMAO" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_DAIMAO_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="56545c80-a4b8-4c7d-8322-b3e22bbb5390" note="PARAM_DAIMAO_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_DAIMAO_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_HAIR_FRONT</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="9b2d0d3f-a4f9-4b63-8f6a-270ed949b3bd" note="PARAM_HAIR_FRONT" />
+					<CParameterId xs.n="id30" idstr="PARAM_HAIR_FRONT" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_HAIR_FRONT_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="75298474-f3bc-4897-8c0a-9ac4a91f082d" note="PARAM_HAIR_FRONT_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_HAIR_FRONT_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_HAIR_SIDE</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="8e1e7f8c-e154-45d7-ba8b-28519cd86cbc" note="PARAM_HAIR_SIDE" />
+					<CParameterId xs.n="id30" idstr="PARAM_HAIR_SIDE" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_HAIR_SIDE_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="e2bbecc4-4df6-43b1-a747-05f278ce2bd7" note="PARAM_HAIR_SIDE_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_HAIR_SIDE_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_HAIR_BACK</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="918287cb-8386-4487-a808-85efd083919b" note="PARAM_HAIR_BACK" />
+					<CParameterId xs.n="id30" idstr="PARAM_HAIR_BACK" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_HAIR_BACK_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="9415fd44-53ff-490a-8a96-1d5fefc0b3fe" note="PARAM_HAIR_BACK_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_HAIR_BACK_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_SLIRT</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="5a336b36-e8f2-4039-9b8a-844715cd98ad" note="PARAM_SLIRT" />
+					<CParameterId xs.n="id30" idstr="PARAM_SLIRT" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_SKIRT_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="6575676d-5691-4c0b-ba0c-8fa3c0c0c407" note="PARAM_SKIRT_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_SKIRT_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_CLOTHES</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="832236a2-4562-4e68-ba66-c9d8713c1af7" note="PARAM_CLOTHES" />
+					<CParameterId xs.n="id30" idstr="PARAM_CLOTHES" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_CLOTHES_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="5faf2d8d-dbfa-4c9b-b865-3377aab71e76" note="PARAM_CLOTHES_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_CLOTHES_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_CLOTHES_2</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="810fd94b-5f67-4790-96d5-8944feeeecb7" note="PARAM_CLOTHES_2" />
+					<CParameterId xs.n="id30" idstr="PARAM_CLOTHES_2" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_CLOYHES_2_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="ee9827fc-4df1-430f-8ddc-6cfc10406c46" note="PARAM_CLOYHES_2_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_CLOYHES_2_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_SLEEVE_L</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="d5151311-c3d7-4656-9d63-618e1370cffe" note="PARAM_SLEEVE_L" />
+					<CParameterId xs.n="id30" idstr="PARAM_SLEEVE_L" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_SLEEVE_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="7ad209e4-8ad5-4368-895f-ade4da053bda" note="PARAM_SLEEVE_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_SLEEVE_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_SLEEVE_R</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="0c80b29a-f6b9-41ce-906c-2bb033ffda2a" note="PARAM_SLEEVE_R" />
+					<CParameterId xs.n="id30" idstr="PARAM_SLEEVE_R" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_SLEEVE_R_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="83fe3d40-2183-4f0f-9c57-cedf0a5e6ad7" note="PARAM_SLEEVE_R_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_SLEEVE_R_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_FLY</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="9c648858-3813-4f5b-9efa-41f93eb3e9d6" note="PARAM_FLY" />
+					<CParameterId xs.n="id30" idstr="PARAM_FLY" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_FLY_SHOW</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="0538313a-51d8-4eed-b637-a6dd0c8382f6" note="PARAM_FLY_SHOW" />
+					<CParameterId xs.n="id30" idstr="PARAM_FLY_SHOW" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_FLY_X</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="5eb15f12-ea35-4831-b05a-27699c1b91d7" note="PARAM_FLY_X" />
+					<CParameterId xs.n="id30" idstr="PARAM_FLY_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_FLY_Y</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="6be49f42-0573-45a4-83db-87c5fe22a141" note="PARAM_FLY_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_FLY_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_FLY_ZOOM</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="d2172133-4850-4e63-ba99-13562823355c" note="PARAM_FLY_ZOOM" />
+					<CParameterId xs.n="id30" idstr="PARAM_FLY_ZOOM" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_FLY_TURN</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="2a8f574c-625a-4929-a275-6cf10bf8a122" note="PARAM_FLY_TURN" />
+					<CParameterId xs.n="id30" idstr="PARAM_FLY_TURN" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_GRASS_1</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="bbbf8392-11c9-480c-8d89-cbda003e6165" note="PARAM_GRASS_1" />
+					<CParameterId xs.n="id30" idstr="PARAM_GRASS_1" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_GRASS_2</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="36f7a852-58e2-4f87-835c-d5a987f3e415" note="PARAM_GRASS_2" />
+					<CParameterId xs.n="id30" idstr="PARAM_GRASS_2" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_GRASS_3</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="8d838c7f-9a6d-4d6c-ad83-36d0761cd804" note="PARAM_GRASS_3" />
+					<CParameterId xs.n="id30" idstr="PARAM_GRASS_3" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BAMBOO_1</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="872c1224-c98f-45d9-9723-35a5eb7f4d29" note="PARAM_BAMBOO_1" />
+					<CParameterId xs.n="id30" idstr="PARAM_BAMBOO_1" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BAMBOO_2</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="8adbbfef-0695-48b2-8296-3a9e668053ca" note="PARAM_BAMBOO_2" />
+					<CParameterId xs.n="id30" idstr="PARAM_BAMBOO_2" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BAMBOO_3</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="0a13efbe-e21e-4b99-9768-0138d7c2a51d" note="PARAM_BAMBOO_3" />
+					<CParameterId xs.n="id30" idstr="PARAM_BAMBOO_3" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BLACK</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="82e58375-563a-4426-a10b-42fb8f6bc7eb" note="PARAM_BLACK" />
+					<CParameterId xs.n="id30" idstr="PARAM_BLACK" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BLACK_1</s>
+					<s xs.n="idType21">jp.live2d.h.d</s>
+					<CParameterGuid xs.n="guid30" uuid="c645ee1a-bc96-4751-905f-33f3ac9dbdfd" note="PARAM_BLACK_1" />
+					<CParameterId xs.n="id30" idstr="PARAM_BLACK_1" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_FACE.00</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="2a5e6ae6-3270-4b5a-86a3-fffa4ac9c396" note="B_FACE_00" />
+					<CDeformerId xs.n="id30" idstr="B_FACE_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_FACE.01</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="910d5757-1d5f-4bbb-b437-54b9909859bd" note="B_FACE_01" />
+					<CDeformerId xs.n="id30" idstr="B_FACE_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_FACE.02</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="5634a29b-cae2-4266-b7bb-e169c3eb1dac" note="B_FACE_02" />
+					<CDeformerId xs.n="id30" idstr="B_FACE_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_EYE.00</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="2f7a83db-aae3-4a4f-807f-734e99934ca6" note="B_EYE_00" />
+					<CDeformerId xs.n="id30" idstr="B_EYE_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_EYE.01</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="032c1228-b921-4d59-861f-9d5585121106" note="B_EYE_01" />
+					<CDeformerId xs.n="id30" idstr="B_EYE_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_EYE_BALL.00</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="102f8269-e924-434f-a6cc-5c6242d57cdb" note="B_EYE_BALL_00" />
+					<CDeformerId xs.n="id30" idstr="B_EYE_BALL_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_EYE_BALL.01</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="3d659863-1f8e-4ee7-a03f-f62a066946d4" note="B_EYE_BALL_01" />
+					<CDeformerId xs.n="id30" idstr="B_EYE_BALL_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BROW.00</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="518fbf68-b8e5-4610-8355-3f16c727d5ed" note="B_BROW_00" />
+					<CDeformerId xs.n="id30" idstr="B_BROW_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BROW.01</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="8e4c1f11-c4d5-487f-93c2-e88e164ce372" note="B_BROW_01" />
+					<CDeformerId xs.n="id30" idstr="B_BROW_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BROW.02</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="bee57655-595b-47ef-b207-16d6d05fb39a" note="B_BROW_02" />
+					<CDeformerId xs.n="id30" idstr="B_BROW_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BROW.03</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="1639da7e-a5b4-45d3-a24f-4ce4338a8838" note="B_BROW_03" />
+					<CDeformerId xs.n="id30" idstr="B_BROW_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MOUTH.00</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="a8b17e6a-ce4f-4fcb-8ae1-26d1bef2f2ca" note="B_MOUTH_00" />
+					<CDeformerId xs.n="id30" idstr="B_MOUTH_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_NOSE.00</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="fbb0af42-0894-4205-a6cf-753921823e0d" note="B_NOSE_00" />
+					<CDeformerId xs.n="id30" idstr="B_NOSE_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_EAR.00</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="6d50240a-d354-464d-bab9-84e6a8b944f7" note="B_EAR_00" />
+					<CDeformerId xs.n="id30" idstr="B_EAR_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_EAR.01</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="e64be886-5363-4a61-963d-0efae4bb2b54" note="B_EAR_01" />
+					<CDeformerId xs.n="id30" idstr="B_EAR_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_HAIR_FRONT.00</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="f91b8274-909f-40b6-98b2-e745823b39f9" note="B_HAIR_FRONT_00" />
+					<CDeformerId xs.n="id30" idstr="B_HAIR_FRONT_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_HAIR_FRONT.01</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="fd868812-2a4d-4ef2-9485-f499a1bedad6" note="B_HAIR_FRONT_01" />
+					<CDeformerId xs.n="id30" idstr="B_HAIR_FRONT_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_HAIR_FRONT.02</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="c95c312c-3527-49e7-9254-d708aa89124f" note="B_HAIR_FRONT_02" />
+					<CDeformerId xs.n="id30" idstr="B_HAIR_FRONT_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_HAIR_FRONT.03</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="caa49899-5781-4c5c-b05b-42bb7ee280c9" note="B_HAIR_FRONT_03" />
+					<CDeformerId xs.n="id30" idstr="B_HAIR_FRONT_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_HAIR_FRONT.04</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="da0d1af6-dcb5-431c-9067-c5f9461e1b00" note="B_HAIR_FRONT_04" />
+					<CDeformerId xs.n="id30" idstr="B_HAIR_FRONT_04" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_HAIR_SIDE.00</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="46d6e5c2-e4c5-4459-8f79-6d8f11e38ab5" note="B_HAIR_SIDE_00" />
+					<CDeformerId xs.n="id30" idstr="B_HAIR_SIDE_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_HAIR_SIDE.01</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="2cf40edd-3213-4a56-ae69-3ae8e12fcb13" note="B_HAIR_SIDE_01" />
+					<CDeformerId xs.n="id30" idstr="B_HAIR_SIDE_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_HAIR_SIDE.02</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="fb8a5236-a3fa-42ac-b6c0-67adddf4f469" note="B_HAIR_SIDE_02" />
+					<CDeformerId xs.n="id30" idstr="B_HAIR_SIDE_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_HAIR_SIDE.03</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="d70071ee-cad4-482d-a5d5-a75384884513" note="B_HAIR_SIDE_03" />
+					<CDeformerId xs.n="id30" idstr="B_HAIR_SIDE_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_HAIR_BACK.00</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="f6092f2f-88a8-473a-ad32-b3ef5f2d7b56" note="B_HAIR_BACK_00" />
+					<CDeformerId xs.n="id30" idstr="B_HAIR_BACK_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_HAIR_BACK.01</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="ccaa22cb-4d3b-45f8-9a24-17ee7c0b02f7" note="B_HAIR_BACK_01" />
+					<CDeformerId xs.n="id30" idstr="B_HAIR_BACK_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_HAIR_BACK.02</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="7ceb21da-00bd-4768-a3e2-5a0cc14254e3" note="B_HAIR_BACK_02" />
+					<CDeformerId xs.n="id30" idstr="B_HAIR_BACK_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_NECK.00</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="cac9b6b7-06f8-40cb-8d99-a5d398cf3a2e" note="B_NECK_00" />
+					<CDeformerId xs.n="id30" idstr="B_NECK_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.03</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="e26a641e-d221-4cf0-8a9e-1c7223373a19" note="B_MY_PARTS_03" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.19</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="27968acd-89b0-43ac-9084-b930fd724f35" note="B_MY_PARTS_19" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_19" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.20</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="ce4382d0-9657-4c4c-9d28-086b21a31163" note="B_MY_PARTS_20" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_20" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.21</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="4ec10c03-a4fc-4bbd-8f76-f6bdee2f8f72" note="B_MY_PARTS_21" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_21" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.22</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="c8026982-6e1d-4918-b7c8-7fd9efb8f8d8" note="B_MY_PARTS_22" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_22" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.23</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="6c09c76c-7f51-4261-880d-a4ee942315de" note="B_MY_PARTS_23" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_23" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.25</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="efc6e09b-f13a-440c-b80b-8504fd905750" note="B_MY_PARTS_25" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_25" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.26</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="4a62d82a-0503-4458-8bfd-fd520a8d3b75" note="B_MY_PARTS_26" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_26" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.27</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="5ec835c5-aac8-4c7c-9614-3da28d685ae2" note="B_MY_PARTS_27" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_27" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.32</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="e8285b44-43e4-4c8a-9ea6-292a3573ae4c" note="B_MY_PARTS_32" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_32" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PART.00</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="ce7ae64e-8a7d-4341-8a23-54521a9e541e" note="B_MY_PART_00" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PART_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PART.01</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="d98827a6-eb76-43e8-8e6c-f13207c2edfd" note="B_MY_PART_01" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PART_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PART.02</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="c312e747-46d5-41d9-b4b2-33f5cdd95de5" note="B_MY_PART_02" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PART_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PART.03</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="6a769374-755e-49f0-accc-20399b51b136" note="B_MY_PART_03" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PART_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PART.04</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="1aa049f6-685c-4371-a98a-41e60bff58ec" note="B_MY_PART_04" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PART_04" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PART.05</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="fdb5f74c-7baf-4e07-b1f5-d2ff02f9d369" note="B_MY_PART_05" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PART_05" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PART.06</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="fdbbde19-9e03-4531-b92e-8d5ffed9af33" note="B_MY_PART_06" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PART_06" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PART.07</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="3279330e-8582-4d5a-a6ca-77e33f5a17f9" note="B_MY_PART_07" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PART_07" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PART.08</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="7a9e0134-7dce-4600-915b-403864311af6" note="B_MY_PART_08" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PART_08" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.08</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="43a68631-35df-4bb4-9f38-26a8156255a5" note="B_MY_PARTS_08" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_08" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.28</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="a4970501-1eba-4ba2-877d-4be6f1167327" note="B_MY_PARTS_28" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_28" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.29</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="242cf77e-0398-404a-8cf5-73cc9e993091" note="B_MY_PARTS_29" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_29" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.30</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="d4880b27-9175-43ce-9c68-b10f022bedb9" note="B_MY_PARTS_30" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_30" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.31</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="b6479c3c-d05b-46a9-ad1a-87198c7d1614" note="B_MY_PARTS_31" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_31" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.09</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="8c0f03a0-2685-459a-92ee-e8b0a7f79ad2" note="B_MY_PARTS_09" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_09" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.10</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="f3941f05-efa0-4ae5-a2fc-3d967b752c6b" note="B_MY_PARTS_10" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_10" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.04</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="778d173a-7ad0-4d52-acf3-ac292c103ea1" note="B_MY_PARTS_04" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_04" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.05</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="79e5d070-9296-43c8-92fb-a54e610349b0" note="B_MY_PARTS_05" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_05" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.06</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="ef7c2bc3-8b1d-4538-99f1-4d1294665237" note="B_MY_PARTS_06" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_06" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.07</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="faa2a324-d7cc-42de-87d5-260c09e906bd" note="B_MY_PARTS_07" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_07" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.11</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="38652e07-d1c6-4cda-abd9-b89f6e761668" note="B_MY_PARTS_11" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_11" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.12</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="71bd0e81-1d73-4a1a-8e8e-df00bcc4cf1b" note="B_MY_PARTS_12" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_12" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.13</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="d20363d5-a7ab-480c-897f-31c4d3a2b0e7" note="B_MY_PARTS_13" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_13" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.14</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="2120e72e-d725-450e-a235-02e84124e598" note="B_MY_PARTS_14" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_14" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.15</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="b8d103ac-074e-4e38-a318-a33c412a55ce" note="B_MY_PARTS_15" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_15" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.37</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="91eebbe4-d657-4698-8b1b-dcdb7459a23c" note="B_MY_PARTS_37" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_37" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BODY.00</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="1b67c76a-71a8-497b-b639-3b95663c48d5" note="B_BODY_00" />
+					<CDeformerId xs.n="id30" idstr="B_BODY_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BODY.01</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="d748528b-83a4-4083-bae6-37cf83b8bfcf" note="B_BODY_01" />
+					<CDeformerId xs.n="id30" idstr="B_BODY_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BODY.02</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="847262a9-f7e9-45c3-a221-7197fb63bf19" note="B_BODY_02" />
+					<CDeformerId xs.n="id30" idstr="B_BODY_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BODY.03</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="e74e0992-c627-49b4-9f3b-db0c298b2434" note="B_BODY_03" />
+					<CDeformerId xs.n="id30" idstr="B_BODY_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_PSD.08</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="1318c403-5f0c-43de-81c0-f34fa6765011" note="B_PSD_08" />
+					<CDeformerId xs.n="id30" idstr="B_PSD_08" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_PSD.09</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="848ccc49-e6ad-455c-a578-ed2da2959de6" note="B_PSD_09" />
+					<CDeformerId xs.n="id30" idstr="B_PSD_09" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_PSD.10</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="7688140a-046e-4037-ab41-45716711826b" note="B_PSD_10" />
+					<CDeformerId xs.n="id30" idstr="B_PSD_10" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_PSD.11</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="369ccec6-c219-493a-989c-8ad271aeaca9" note="B_PSD_11" />
+					<CDeformerId xs.n="id30" idstr="B_PSD_11" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_PSD.12</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="fef78230-f6fe-4dd4-8ba2-357c68875e91" note="B_PSD_12" />
+					<CDeformerId xs.n="id30" idstr="B_PSD_12" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_PSD.13</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="a77ed0cb-1a91-4ead-b6da-c5f853e9af67" note="B_PSD_13" />
+					<CDeformerId xs.n="id30" idstr="B_PSD_13" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_PSD.15</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="c34c5e19-9dbb-4264-8149-3dac5de8e788" note="B_PSD_15" />
+					<CDeformerId xs.n="id30" idstr="B_PSD_15" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_PSD.14</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="ea521748-4dec-4237-953b-250093d0b73c" note="B_PSD_14" />
+					<CDeformerId xs.n="id30" idstr="B_PSD_14" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BACKGROUND.00</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="e23fc9d1-957d-4f51-b5eb-dc997037ce1a" note="B_BACKGROUND_00" />
+					<CDeformerId xs.n="id30" idstr="B_BACKGROUND_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BACKGROUND.01</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="d29576e8-5296-4f41-916b-10467a327f80" note="B_BACKGROUND_01" />
+					<CDeformerId xs.n="id30" idstr="B_BACKGROUND_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BACKGROUND.02</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="89d63fcd-d246-4652-ae5c-528393a438a1" note="B_BACKGROUND_02" />
+					<CDeformerId xs.n="id30" idstr="B_BACKGROUND_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BACKGROUND.03</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="39d4f294-8bcb-491d-86ad-963d8747a80f" note="B_BACKGROUND_03" />
+					<CDeformerId xs.n="id30" idstr="B_BACKGROUND_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BACKGROUND.04</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="6e78f2e4-dc99-4201-bfe0-99b2240c3e40" note="B_BACKGROUND_04" />
+					<CDeformerId xs.n="id30" idstr="B_BACKGROUND_04" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BACKGROUND.05</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="9bb115eb-6d27-4636-b8a2-943249f9ac1c" note="B_BACKGROUND_05" />
+					<CDeformerId xs.n="id30" idstr="B_BACKGROUND_05" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BACKGROUND.06</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="01d0e6d3-5dd7-486d-b40a-bc30d06d41a1" note="B_BACKGROUND_06" />
+					<CDeformerId xs.n="id30" idstr="B_BACKGROUND_06" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BACKGROUND.07</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="6b8c0826-9c65-4881-89b5-0736997cbf7d" note="B_BACKGROUND_07" />
+					<CDeformerId xs.n="id30" idstr="B_BACKGROUND_07" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BACKGROUND.08</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="52ab2e56-6a20-4dc1-916a-e815412dc77e" note="B_BACKGROUND_08" />
+					<CDeformerId xs.n="id30" idstr="B_BACKGROUND_08" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BACKGROUND.09</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="d86897be-31a0-4ab1-864f-008d93a56edd" note="B_BACKGROUND_09" />
+					<CDeformerId xs.n="id30" idstr="B_BACKGROUND_09" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BACKGROUND.10</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="eee60e30-71f9-4227-aa0c-0d4a518f11c3" note="B_BACKGROUND_10" />
+					<CDeformerId xs.n="id30" idstr="B_BACKGROUND_10" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_PSD.00</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="d26233d0-b80c-4736-b3db-6a888968609b" note="B_PSD_00" />
+					<CDeformerId xs.n="id30" idstr="B_PSD_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_PSD.01</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="e98f9cf0-8f95-4d20-aee1-2647d4ffb0a3" note="B_PSD_01" />
+					<CDeformerId xs.n="id30" idstr="B_PSD_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_PSD.02</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="aa1153b9-b718-4920-9aee-8869829e329b" note="B_PSD_02" />
+					<CDeformerId xs.n="id30" idstr="B_PSD_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_PSD.03</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="c5eae214-417b-4fdf-85fb-9100cca613a2" note="B_PSD_03" />
+					<CDeformerId xs.n="id30" idstr="B_PSD_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_PSD.04</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="3560fe90-24e9-4507-9a8a-ce91d956d339" note="B_PSD_04" />
+					<CDeformerId xs.n="id30" idstr="B_PSD_04" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_PSD.05</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="8fa45031-78c2-4a0d-93ad-fa3361d432ea" note="B_PSD_05" />
+					<CDeformerId xs.n="id30" idstr="B_PSD_05" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_PSD.06</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="d725c6d2-93f9-41bc-a5ef-f4e6d11f9b32" note="B_PSD_06" />
+					<CDeformerId xs.n="id30" idstr="B_PSD_06" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_PSD.07</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="c30cfdd7-df30-44da-b4af-83c76377bbdd" note="B_PSD_07" />
+					<CDeformerId xs.n="id30" idstr="B_PSD_07" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.00</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="6cbe64a4-5ccd-40fd-9407-2af342905277" note="B_MY_PARTS_00" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.01</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="581fddd4-72b4-41e0-9763-58cd46ae7302" note="B_MY_PARTS_01" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.02</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="61898a9c-a1a8-444d-8049-2e38b3390034" note="B_MY_PARTS_02" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.16</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="d8b901ab-89a2-47e0-ae53-7e889a28b7fd" note="B_MY_PARTS_16" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_16" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.17</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="a8b112d4-7141-4320-8faf-a4267f9a3891" note="B_MY_PARTS_17" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_17" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.18</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="b5d152cb-271d-46d8-8c53-75cb076ca812" note="B_MY_PARTS_18" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_18" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.33</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="109fd462-1c2d-4b54-9849-a5322a57a7e0" note="B_MY_PARTS_33" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_33" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.34</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="a0160aca-c435-488b-8169-06251e506838" note="B_MY_PARTS_34" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_34" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.35</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="7e461207-249e-4852-b355-682d1e9b1f1b" note="B_MY_PARTS_35" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_35" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.36</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="f2134681-19bc-42c5-9694-34d7e37112f5" note="B_MY_PARTS_36" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_36" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MY_PARTS.24</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="c38a024f-4e41-4f36-a527-250dcd67c49f" note="B_MY_PARTS_24" />
+					<CDeformerId xs.n="id30" idstr="B_MY_PARTS_24" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_REF.HEAD</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="560fe81d-079b-4109-ad4e-0bee45a04cc5" note="D_REF_HEAD" />
+					<CDrawableId xs.n="id30" idstr="D_REF_HEAD" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_REF.BODY</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="694ccbf0-9974-4994-8d74-7d7e1fedc711" note="D_REF_BODY" />
+					<CDrawableId xs.n="id30" idstr="D_REF_BODY" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_REF.LEG</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="b70ecd34-1531-4ca1-892f-19fa9611f6bf" note="D_REF_LEG" />
+					<CDrawableId xs.n="id30" idstr="D_REF_LEG" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.82</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="9cdf82a0-831e-4c2d-bd47-267e8b0dd287" note="D_PSD_82" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_82" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.73</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="f187b48d-dd89-47a9-9f47-104af5ddaaf8" note="D_PSD_73" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_73" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.80</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="f130ed19-c7c0-4432-9476-efb3a0748960" note="D_PSD_80" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_80" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.81</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="3bb334ff-2f0d-4daa-bb74-07e81454da6e" note="D_PSD_81" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_81" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.83</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="34da2b57-2707-4780-9be5-65820a0b9567" note="D_PSD_83" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_83" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.84</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="e570e286-723c-412d-a065-56fb7bc5e7ed" note="D_PSD_84" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_84" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.87</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="b5571884-7fbf-48ed-a115-f15104b2128e" note="D_PSD_87" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_87" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.88</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="66ff1a21-edd9-441a-a3d6-7b87ad7a7bd9" note="D_PSD_88" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_88" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.89</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="4b9464d6-443f-4159-bdfc-54cce59e1d78" note="D_PSD_89" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_89" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.90</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="2ea924ad-b845-41c3-aa34-98489983641e" note="D_PSD_90" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_90" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.91</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="3f6955f8-0a4d-4de3-aa52-72ebdddb74af" note="D_PSD_91" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_91" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.92</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="8e839dc4-6821-48f1-8e44-7f874000c7e2" note="D_PSD_92" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_92" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.85</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="d3e6cc61-951d-40b2-9978-63c10e4cdb70" note="D_PSD_85" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_85" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.86</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="a70738ce-9e0b-4879-bc19-7407210ae15e" note="D_PSD_86" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_86" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.93</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="87f78a6c-7333-4190-a6f0-4f3886ae75e3" note="D_PSD_93" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_93" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.94</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="ffa319e7-f7a9-47a2-ae1f-fdc9302f829a" note="D_PSD_94" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_94" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.75</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="ae4b2d50-8a6e-402b-b55e-4658c068d939" note="D_PSD_75" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_75" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.76</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="e10081cd-735f-42b3-95e6-23d811dbd080" note="D_PSD_76" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_76" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.77</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="1022286f-abf6-4633-8d16-bc5246e1844e" note="D_PSD_77" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_77" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.78</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="2848b97a-4b72-4ec3-92b6-6cabd3c5b7d9" note="D_PSD_78" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_78" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.79</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="0c24f60b-4e71-4f17-bd9c-6e0050148522" note="D_PSD_79" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_79" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.70</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="6c117827-cd6c-4cba-95d5-919c9c29e19e" note="D_PSD_70" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_70" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.72</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="fa62f968-ddbb-421d-b539-3c6b28475bee" note="D_PSD_72" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_72" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.95</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="16f914a2-9f50-410c-b331-58836c4ca036" note="D_PSD_95" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_95" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.96</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="0507c531-485b-4289-b5eb-cbc977148eb6" note="D_PSD_96" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_96" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.97</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="1c89d8a4-f4d3-4331-8799-72a73d8b6813" note="D_PSD_97" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_97" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.98</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="3f93a028-7d36-45ac-a071-240c105a8477" note="D_PSD_98" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_98" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.74</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="048cf6ef-cd41-4268-be3f-c22685d64389" note="D_PSD_74" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_74" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.69</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="e6af7f27-402a-4d26-8f72-90192c8aab3b" note="D_PSD_69" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_69" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.71</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="a0d194eb-44e3-4955-afa7-c4c28de53f64" note="D_PSD_71" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_71" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.24</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="d116ac4b-fb2b-4a14-8acc-735a6b57ba15" note="D_PSD_24" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_24" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.68</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="f691cd14-a0c3-46dc-a56d-0a7a62c91efa" note="D_PSD_68" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_68" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.27</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="5cedb368-703b-421e-a7c0-c9596a58a2c3" note="D_PSD_27" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_27" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.28</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="a93bc13c-36ba-4b43-9406-23443b15b403" note="D_PSD_28" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_28" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.49</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="d634319e-60d2-410d-9c30-293bdc617915" note="D_PSD_49" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_49" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.50</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="4f33ebd5-b754-4230-9afa-5c08aa8484c5" note="D_PSD_50" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_50" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.57</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="66121696-f1ac-4eee-a00d-1e13b9aa4f46" note="D_PSD_57" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_57" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.51</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="79e2241d-f4e4-4b0c-aad0-4324c44e53fe" note="D_PSD_51" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_51" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.52</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="60b4d44b-55b4-4f50-a976-c4be12ff5aa4" note="D_PSD_52" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_52" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.53</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="756efdaa-1325-4b18-91bd-73b481303938" note="D_PSD_53" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_53" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.54</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="f5b1c22f-d755-428c-b2d7-bb0084935372" note="D_PSD_54" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_54" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.55</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="ac63a97e-a98d-43b9-a6b0-b3cf20cb51f6" note="D_PSD_55" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_55" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.56</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="c8b0cee4-f528-4865-b451-6cea1b6cc042" note="D_PSD_56" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_56" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.29</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="f190a5c3-93fe-451a-8936-d97da64f2ed9" note="D_PSD_29" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_29" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.31</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="448fbc0f-d2df-4973-a078-913e9ff89da6" note="D_PSD_31" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_31" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.32</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="6b73953e-06c4-4625-a55f-a8be76e3a190" note="D_PSD_32" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_32" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.33</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="55e22fc6-65ad-4347-91eb-74b3cb11ffe0" note="D_PSD_33" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_33" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.34</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="988c2737-6fcd-417e-acd6-c636c7ce3dd4" note="D_PSD_34" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_34" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.30</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="54933ba8-283e-4c7c-bfed-0d3b768b8473" note="D_PSD_30" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_30" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.35</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="b8baa99b-b4cf-4f14-a1da-b2b15151f7da" note="D_PSD_35" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_35" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.40</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="03e2a07e-053f-4802-b437-8c5986492a59" note="D_PSD_40" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_40" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.41</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="fa5f3731-8ee4-40ee-aeff-a2f418a56b27" note="D_PSD_41" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_41" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.42</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="a58dcd73-2a78-486f-8554-e65675415089" note="D_PSD_42" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_42" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.43</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="f58a6b3a-c253-4301-afd7-1bbb81f5dcd2" note="D_PSD_43" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_43" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.25</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="2ee9670b-2145-41d1-bb40-6568b25cf309" note="D_PSD_25" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_25" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.46</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="db1a66b2-e1f7-4390-88b8-a8a6306ba587" note="D_PSD_46" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_46" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.48</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="42281817-9f65-4bb3-90ce-a72abc96582a" note="D_PSD_48" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_48" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.36</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="6c820b53-4427-4af3-ae0e-f2780f205b19" note="D_PSD_36" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_36" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.60</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="dbea24a7-64de-4aed-a7bf-0e470723320d" note="D_PSD_60" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_60" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.61</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="12552e09-d043-4d66-a613-217309fa8015" note="D_PSD_61" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_61" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.62</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="4c38696d-cd2d-4ebd-86c4-245ff423329d" note="D_PSD_62" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_62" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.63</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="da8ac640-9e3e-4a10-8e6c-d07611d59696" note="D_PSD_63" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_63" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.64</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="500561cc-bd91-4ccb-ab4e-e18e511c6993" note="D_PSD_64" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_64" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.65</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="ad611abf-587e-4047-b314-ba482b334e76" note="D_PSD_65" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_65" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.66</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="eab93e70-2edf-4218-9913-f4fb04ed4824" note="D_PSD_66" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_66" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.37</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="b0724709-52b5-46e7-9ef8-205f4176f346" note="D_PSD_37" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_37" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.59</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="0bc2feb7-b571-4fe4-a9a2-9fdfff613a91" note="D_PSD_59" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_59" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.67</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="45d61199-75c5-4e57-8264-d33696aa2377" note="D_PSD_67" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_67" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.39</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="74952ebf-3f96-4eb9-be48-69560bd1d457" note="D_PSD_39" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_39" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.44</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="96062852-70a8-4521-bf48-3f13bf7b6309" note="D_PSD_44" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_44" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.45</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="e52a749a-34c0-435d-a3b3-0771690bc9a0" note="D_PSD_45" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_45" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.47</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="a4eaa64a-7c8e-4ccc-913e-b77071fdd4cd" note="D_PSD_47" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_47" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.13</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="9750255d-4e12-449a-a7e0-01181c4346ff" note="D_PSD_13" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_13" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.15</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="03c04a60-8a2c-4b47-8aba-ff4b1f04273f" note="D_PSD_15" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_15" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.17</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="36567a6f-785c-4ff5-9cd0-57475541a767" note="D_PSD_17" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_17" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.11</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="d5abe7d3-36bb-4394-a171-0968aa9d550e" note="D_PSD_11" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_11" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.12</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="23d7a469-b1ab-4980-9f70-3e44b1eaf25a" note="D_PSD_12" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_12" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.18</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="3b7cda23-5483-4550-80f6-244683d8b575" note="D_PSD_18" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_18" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.16</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="ef1cd325-6519-4330-9aed-46d137b20391" note="D_PSD_16" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_16" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.19</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="5b233588-b021-4d19-a90f-0e47b1416528" note="D_PSD_19" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_19" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.14</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="c9f64823-4a68-4491-b910-32dcca2ed031" note="D_PSD_14" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_14" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.20</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="dcfb395f-f6ad-4b16-8da4-36949d10f7c7" note="D_PSD_20" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_20" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.21</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="cba404fe-5a10-4caf-814a-6b5267f0b8cb" note="D_PSD_21" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_21" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.22</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="5788d126-3c85-487a-a0e6-58c390adb576" note="D_PSD_22" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_22" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.01</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="3c6b9572-977e-4975-8d0a-9ba960486256" note="D_PSD_01" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.02</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="efc05b94-3655-4c4f-a277-ab30d8159b52" note="D_PSD_02" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.05</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="ec2a7584-4dd5-4a80-a01e-5abddf9616a8" note="D_PSD_05" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_05" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.07</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="1d88682b-a650-42d6-b5f2-4868fdb54b4e" note="D_PSD_07" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_07" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.08</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="8bc2b9eb-7f1a-4da8-b5ab-fe2f864af77b" note="D_PSD_08" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_08" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.09</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="2b481da3-a3dc-4b10-907c-8ea410a79337" note="D_PSD_09" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_09" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.23</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="38da3b6d-44a8-42be-9841-9d8f56af483f" note="D_PSD_23" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_23" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.113</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="eddd25de-c335-44a1-b15e-83b87add8569" note="D_PSD_113" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_113" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.114</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="a18e376d-cba2-4610-bed4-919ef7ba0245" note="D_PSD_114" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_114" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.115</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="88c2cded-8587-45d5-879f-a2dd46b06d1c" note="D_PSD_115" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_115" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.116</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="7a59cd96-f63b-40e5-9899-fda9d79d380f" note="D_PSD_116" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_116" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.117</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="6d66479b-f80b-4f8f-86cb-126df3ec4294" note="D_PSD_117" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_117" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.26</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="cd08833a-e9cd-48b6-8c14-1f2f121d7b06" note="D_PSD_26" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_26" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.58</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="8953aa0a-77a9-48d8-bad4-a2cf40f30926" note="D_PSD_58" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_58" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.00</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="a89896ed-eca2-4c5f-8eb9-323bc55ab53a" note="D_PSD_00" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.06</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="d1633c20-54b8-4a7d-bfbd-51d690e71b7a" note="D_PSD_06" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_06" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.10</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="a84a014f-c051-4b9a-88bf-5f48cc0cf5f9" note="D_PSD_10" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_10" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.123</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="be11c94b-f714-49fa-ba17-07ce5020c2d2" note="D_PSD_123" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_123" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.128</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="18ca7dae-af0d-41ef-af54-24648a5c63a5" note="D_PSD_128" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_128" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.129</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="20c2574f-14e5-4ded-8f80-7e7ce25e81f6" note="D_PSD_129" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_129" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.130</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="a8dd35d6-0b1a-4257-8d16-21028cbfcd64" note="D_PSD_130" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_130" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.131</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="b7f2191c-56d4-4802-adfc-75da58dc5014" note="D_PSD_131" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_131" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.132</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="bee44bc1-660e-4e99-8c78-2eb1717db411" note="D_PSD_132" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_132" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.133</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="a8395962-b59b-449e-ba5f-21b8a38b906b" note="D_PSD_133" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_133" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.134</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="d0981cb6-c5bd-4aba-83a1-a937e1d75045" note="D_PSD_134" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_134" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.135</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="8b1459bf-d415-44f1-acbd-2ca8d3c172ac" note="D_PSD_135" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_135" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.136</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="79403c37-4068-4f55-879e-6d1bb35a7c22" note="D_PSD_136" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_136" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.137</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="a3abbcdd-2389-4dfe-8e22-bf875bb6f9c7" note="D_PSD_137" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_137" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.138</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="f080bd86-dbc5-4deb-8a6f-54ea7e54c875" note="D_PSD_138" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_138" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.102</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="9540bff1-44f2-4411-82f6-7768058a3f09" note="D_PSD_102" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_102" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.104</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="0dd39160-18ac-4fea-ac22-7f8ae70778e6" note="D_PSD_104" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_104" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.106</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="c9915a97-0e0f-4595-8ab9-fc2df8fed314" note="D_PSD_106" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_106" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.107</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="9abbf5cd-7e63-482b-b77a-b3baff7b5140" note="D_PSD_107" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_107" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.108</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="a90e5f68-e4ed-4f80-a74d-b7716e07f3ec" note="D_PSD_108" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_108" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.109</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="3c566893-db1b-4670-87ed-0365acea314e" note="D_PSD_109" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_109" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.111</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="edb7fa0c-4162-4bc1-956a-f06334f9adba" note="D_PSD_111" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_111" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.103</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="0e6abb73-75cf-48ae-84ad-abe810e53326" note="D_PSD_103" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_103" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.119</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="a05e4317-7d75-4fe9-887d-f5348e1b9e35" note="D_PSD_119" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_119" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.125</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="66ea8542-2e81-458f-9bb9-c0123ec6421f" note="D_PSD_125" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_125" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_PSD.118</s>
+					<s xs.n="idType21">jp.live2d.h.b</s>
+					<CDrawableGuid xs.n="guid30" uuid="45d5cde7-c2b1-4c8d-87cd-f52c442bf8e6" note="D_PSD_118" />
+					<CDrawableId xs.n="id30" idstr="D_PSD_118" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_LANTEN</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="67e2046b-236e-4ca2-b4b0-2d3338611b57" note="PARTS_LANTEN" />
+					<CPartId xs.n="id30" idstr="PARTS_LANTEN" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BALL_X</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="ca551d79-a6ea-40c6-b7ab-335a7b419cdb" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_BALL_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BALL_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="64ed3027-9130-4222-8fdd-b1137c37c2ed" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_BALL_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_LIGHT</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="7a567458-489c-4b57-b87c-3da771c4c396" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_LIGHT" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_DRONE</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="d837809e-f0b7-446a-9e41-0396478f1248" note="PARTS_DRONE" />
+					<CPartId xs.n="id30" idstr="PARTS_DRONE" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_WING</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="6a327dcc-963e-41a0-847f-231887443f29" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_WING" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">DST_BASE</s>
+					<s xs.n="idType21">jp.live2d.h.a</s>
+					<CDeformerGuid xs.n="guid30" uuid="71fae776-e218-4aee-873e-78e8ac0cb48a" note="ROOT" />
+					<CDeformerId xs.n="id30" idstr="__RootDeformer__" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_DRONE_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="9c7388e3-9dca-458e-b18b-3f6318f2397d" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_DRONE_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_DRONE_X</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="f4354269-84af-4785-b22b-b8fc1b983639" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_DRONE_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_DRONE_ZOOM</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="c0833a94-4407-4c73-80d9-ec85c47b70b5" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_DRONE_ZOOM" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_DRONE_Z</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="4c3689e3-7a2f-470a-a819-582f855205b0" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_DRONE_Z" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_MAO_X</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="e70b789a-402a-4ca0-a2e6-eeb961b3557e" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_MAO_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_SKETCH</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="8991e6bd-f6fd-4219-8d96-d2f69ed42ea9" note="PARTS_01_SKETCH" />
+					<CPartId xs.n="id30" idstr="PARTS_01_SKETCH" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_BACKGROUND</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="102c8506-d3d8-4f07-a166-57faec76ad9c" note="PARTS_01_BACKGROUND" />
+					<CPartId xs.n="id30" idstr="PARTS_01_BACKGROUND" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_GRASS_2</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="95c13b0a-7275-47be-87fe-fd5280a677c1" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_GRASS_2" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_GRASS_1</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="a1838801-2616-42ba-abee-f371a407c503" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_GRASS_1" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_GRASS_3</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="f821f160-cf06-4c4d-b983-632aacaec43b" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_GRASS_3" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BAMBOO_1</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="86d26c6f-2e22-4d5d-8b1e-96bbbc5fcaa9" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_BAMBOO_1" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BAMBOO_2</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="e8bc1e54-0500-45e1-b88d-c6f8ab3380be" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_BAMBOO_2" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BAMBOO_3</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="c29263b3-bdd7-456e-8c1b-aa98c1a66335" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_BAMBOO_3" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_FLY_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="cab886f4-dcdb-41d4-805a-2ade473071cf" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_FLY_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_FLY_X</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="3fd39e40-e774-4712-a4f0-cbc7e50b3c91" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_FLY_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_FLY_TURN</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="2cde4be9-a766-4fcd-8c1c-61d0febf1dbd" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_FLY_TURN" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_FLY</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="6894efd6-df1b-4619-b507-8851e85a98b1" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_FLY" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_FLY_ZOOM</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="a5c73035-22e7-4923-a0e0-1247896612a6" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_FLY_ZOOM" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_FLY_SHOW</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="5347fe41-f3b3-4dd4-86b3-08d8bbd9aa64" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_FLY_SHOW" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_BODY</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="37b115c7-ff97-432c-8d9b-985401a6549c" note="PARTS_01_BODY" />
+					<CPartId xs.n="id30" idstr="PARTS_01_BODY" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BODY_ANGLE_Z</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="f054ae78-f5d4-4c25-88ea-f0f7e2a097f7" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_BODY_ANGLE_Z" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BODY_ANGLE_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="1d65688f-08db-4a67-b190-fd4404fb7bcb" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_BODY_ANGLE_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BODY_ANGLE_X</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="0ec6f11c-9a60-4699-aa81-d6f968ad2259" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_BODY_ANGLE_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_ARM_L_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="126ff670-7766-49ab-a7a3-020f261f799d" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_ARM_L_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_ARM_L</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="4e633fd3-7e98-4935-b110-e6f8a510f444" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_ARM_L" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_ARM_L_1_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="8dbd69df-feff-4755-9004-6ba92bb86292" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_ARM_L_1_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_ARM_L_1</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="9aadbd86-dbee-43f7-9c69-62f9666c56cf" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_ARM_L_1" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_ARM_R_2</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="cb6cba1e-f232-42c7-9633-9013a0515dfd" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_ARM_R_2" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_ARM_R</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="0ba71fd5-2dc8-4ba1-8c64-c77602e5318f" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_ARM_R" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_CLOTHES_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="b33573e8-9601-4687-ab89-4a99ec75906a" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_CLOTHES_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_CLOTHES</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="322c9d8b-c50b-47e4-837b-d5e3b294108d" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_CLOTHES" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_OPAI</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="81283f2c-9240-4ee5-8591-e86d9db61c24" note="PARTS_OPAI" />
+					<CPartId xs.n="id30" idstr="PARTS_OPAI" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_OPAISHAKE_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="2000e870-641b-4883-a6ed-7f6596e385aa" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_OPAISHAKE_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_OPAISHAKE_X</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="e9c70031-1ef3-4049-9f57-c298749730fe" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_OPAISHAKE_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_TAG_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="edd139e3-1beb-42c4-9e94-6b04a04efd42" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_TAG_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_TAG_X</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="ec458a85-5109-44c1-b5ad-20f0cd506b18" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_TAG_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_LEG_R</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="eb3c9a3c-f6fc-4193-a346-eaebe35481ed" note="PARTS_LEG_R" />
+					<CPartId xs.n="id30" idstr="PARTS_LEG_R" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_LEG_L</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="1843be8f-0f92-4092-8817-78a5c89625ec" note="PARTS_LEG_L" />
+					<CPartId xs.n="id30" idstr="PARTS_LEG_L" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_LEG_L_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="1c7b62b4-9acf-45fc-8c12-8eee48d901b1" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_LEG_L_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_LEG_L</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="2c9f3179-8b1e-4726-bbb1-356664f6cafb" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_LEG_L" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_ARM_R</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="7c0da623-e2b1-48b5-ac50-6d2ec2e1699e" note="PARTS_ARM_R" />
+					<CPartId xs.n="id30" idstr="PARTS_ARM_R" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_SLEEVE_R_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="c06e50b3-4c08-4687-8333-7654ad112143" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_SLEEVE_R_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_SLEEVE_R</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="3f0e5912-45d6-4f5e-980a-98eeeb6bdf52" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_SLEEVE_R" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_ARM_L</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="8f6cc49a-def1-46bd-9d29-7b47f35abc40" note="PARTS_ARM_L" />
+					<CPartId xs.n="id30" idstr="PARTS_ARM_L" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_HAND_L</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="f3c752d8-390f-4d8f-bbaa-69c0a717b1a4" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_HAND_L" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_HAND_L_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="d7cff224-b63a-4a57-8bd9-f694fc1f249f" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_HAND_L_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_SLEEVE_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="d47d7dc3-3e79-4bd6-a09d-9e8c1338ab3c" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_SLEEVE_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_SLEEVE_L</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="5e4779be-7a5b-430a-a53a-45f65da33cac" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_SLEEVE_L" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_FINGER_L</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="1e608f7a-b8fa-42e7-b537-a2cbcbd32e87" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_FINGER_L" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_NECK</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="1bcd2df5-45ba-4b6c-aea9-507fdbfe570e" note="PARTS_01_NECK" />
+					<CPartId xs.n="id30" idstr="PARTS_01_NECK" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_HAIR_BACK_001</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="1d8a8bc1-3748-4837-83e4-8ad986fae424" note="PARTS_01_HAIR_BACK_001" />
+					<CPartId xs.n="id30" idstr="PARTS_01_HAIR_BACK_001" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_ANGLE_Z</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="44412ac9-e52a-4d20-b478-9dee815ff3fb" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_ANGLE_Z" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_ANGLE_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="2c2df5b3-1558-47d3-9dcf-7f57c4818996" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_ANGLE_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_ANGLE_X</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="1064a451-20ef-4677-8ac1-d971d935b98d" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_ANGLE_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_HAIR_BACK_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="29415d70-808d-4776-980d-7b505bd53dfe" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_HAIR_BACK_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_HAIR_BACK</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="50c85150-53e5-4bbd-8ec8-4d531e9f5fa3" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_HAIR_BACK" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_HAIR_SIDE_001</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="421c2c43-1e53-4bdb-a5fa-924a2cc6fca6" note="PARTS_01_HAIR_SIDE_001" />
+					<CPartId xs.n="id30" idstr="PARTS_01_HAIR_SIDE_001" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_HAIR_SIDE_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="7ce4e30b-746f-4b73-9c89-184e038df890" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_HAIR_SIDE_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_HAIR_SIDE</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="2edcc86f-38d1-42ea-9f3b-fc3d07606c47" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_HAIR_SIDE" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_HAIR_FRONT_001</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="a6962228-9e99-4a6b-bc66-dd7b2112d1b4" note="PARTS_01_HAIR_FRONT_001" />
+					<CPartId xs.n="id30" idstr="PARTS_01_HAIR_FRONT_001" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_HAIR_FRONT_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="b52c24f3-b6db-4387-aaf4-1e12199a9627" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_HAIR_FRONT_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_HAIR_FRONT</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="94d789fd-0784-41ab-aaaf-ef0e7c58ec7d" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_HAIR_FRONT" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_EAR_001</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="c84d1888-f7af-457e-9327-55a1f8d784de" note="PARTS_01_EAR_001" />
+					<CPartId xs.n="id30" idstr="PARTS_01_EAR_001" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_NOSE_001</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="a0781840-42e0-4edb-9e18-21801483f2ea" note="PARTS_01_NOSE_001" />
+					<CPartId xs.n="id30" idstr="PARTS_01_NOSE_001" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_MOUTH_001</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="3193ee16-2bb7-4287-82a9-e2e089e0257a" note="PARTS_01_MOUTH_001" />
+					<CPartId xs.n="id30" idstr="PARTS_01_MOUTH_001" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_MOUTH_OPEN_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="e5ba6d90-1a9e-410a-97d3-abf9e203442d" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_MOUTH_OPEN_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_MOUTH_FORM</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="32b5c776-6385-4123-8646-e62df8456f97" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_MOUTH_FORM" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_BROW_001</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="f98fc558-7986-40ac-9d26-cb7e9cfc1806" note="PARTS_01_BROW_001" />
+					<CPartId xs.n="id30" idstr="PARTS_01_BROW_001" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BROW_L_ANGLE</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="c53479b7-c5ed-456b-b7d6-f10d326f5e85" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_BROW_L_ANGLE" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BROW_R_ANGLE</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="e5344ba6-8827-4341-b2f0-e50b34db242a" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_BROW_R_ANGLE" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BROW_R_FORM</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="f9f3cc05-5ab8-4c1a-b532-c6ece0fdb327" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_BROW_R_FORM" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BROW_L_FORM</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="4301036e-143a-4e67-903f-e49d1fccff60" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_BROW_L_FORM" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_EYE_BALL_001</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="c63da7c0-cfa5-4a47-8015-43a4b2f5e7a2" note="PARTS_01_EYE_BALL_001" />
+					<CPartId xs.n="id30" idstr="PARTS_01_EYE_BALL_001" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_EYE_BALL_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="55bdb66b-1e11-41c5-97c3-832ce8161bc5" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_EYE_BALL_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_EYE_BALL_X</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="2d6d0753-1c22-46b7-a0d3-96f97d62978b" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_EYE_BALL_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_EYE_001</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="e445566c-0cd3-4c86-8111-1b40b4a8b105" note="PARTS_01_EYE_001" />
+					<CPartId xs.n="id30" idstr="PARTS_01_EYE_001" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_EYE_R_SMILE</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="4dc7798d-8922-45e6-844a-e1e04af2fe43" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_EYE_R_SMILE" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_EYE_R_OPEN</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="364d3986-d5f9-44f5-b6fc-bc7557a9b08e" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_EYE_R_OPEN" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_EYE_L_SMILE</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="0de21d90-5830-4577-b3a3-3c4efd7926ba" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_EYE_L_SMILE" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_EYE_L_OPEN</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="ec4124b1-bf96-4d47-8210-c25974ef3a66" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_EYE_L_OPEN" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_FACE_001</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="cc12582f-22ea-4eaa-bee6-761759a55bbb" note="PARTS_01_FACE_001" />
+					<CPartId xs.n="id30" idstr="PARTS_01_FACE_001" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_CHEEK</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="b2c7d429-53d9-40e9-b946-bea1accfc2e3" note="(no debug info)" />
+					<CParameterId xs.n="id30" idstr="PARAM_CHEEK" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">ROUGH</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="972c9904-8a63-49e1-a80a-1f90969f1f5c" note="ROUGH" />
+					<CPartId xs.n="id30" idstr="ROUGH" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PSD</s>
+					<s xs.n="idType21">jp.live2d.h.e</s>
+					<CPartGuid xs.n="guid30" uuid="4fe8361c-729e-4f1a-9e1a-b295823995e5" note="PSD" />
+					<CPartId xs.n="id30" idstr="PSD" />
+				</IdSet>
+			</carray_list>
+		</CompatibilityOption_Cubism21to30>
+	</main>
+</root>
+
